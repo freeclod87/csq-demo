@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulenza Qualit&agrave; Software | Il tuo Consulente Indipendente</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        /* CSS PERSONALIZZATO - Inclusa la definizione dei font */
+        :root {
+            --bs-primary: #1a237e; /* Blu Scuro Istituzionale */
+            --bs-danger: #f44336;  /* Rosso vivo per CTA e enfasi */
+            
+            /* Definizioni Font */
+            --font-heading: 'Poppins', sans-serif;
+            --font-body: 'Roboto', sans-serif;
+        }
+
+        /* Applica i font */
+        body {
+            font-family: var(--font-body); /* Roboto per il testo normale */
+        }
+        h1, h2, h3, h4, h5, h6, .logo {
+            font-family: var(--font-heading); /* Poppins per i titoli */
+        }
+
+        /* CLASSI AGGIUNTIVE E COLORI (Rimangono invariate rispetto alla versione Bootstrap precedente) */
+        .bg-primary-custom { background-color: var(--bs-primary) !important; }
+        .text-primary-custom { color: var(--bs-primary) !important; }
+
+        .hero {
+            background-color: #e8eaf6;
+            padding: 5rem 0;
+        }
+
+        .cta-button {
+            background-color: var(--bs-danger);
+            color: white;
+            padding: 0.75rem 2rem;
+            font-weight: 600;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover { background-color: #d32f2f; color: white; }
+
+        /* TABELLE RESPONSIVE */
+        .table-custom thead {
+            background-color: var(--bs-primary);
+            color: white;
+        }
+        
+        /* BOX MISSIONE */
+        .mission-box {
+            border-left: 5px solid var(--bs-danger);
+        }
+
+        /* CARD AREE CRITICHE */
+        .area-item {
+            border-top: 3px solid var(--bs-primary);
+        }
+        
+        /* CARD WIN-WIN */
+        .win-win-card {
+            border-left: 5px solid #ff9800;
+            background-color: #fffde7;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: #37474f;
+            padding: 3rem 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="bg-primary-custom text-white py-3">
+        <div class="container text-center">
+            <span class="logo fs-4 fw-bold">Consulenza Qualit&agrave; Software | Claudio Frigo</span>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container text-center">
+            <h1 class="display-5 text-primary-custom mb-3 fw-bold">Investi con la Certezza della Qualit&agrave; del Software.</h1>
+            <p class="lead text-secondary mb-4">Sono il tuo consulente indipendente e obiettivo per ogni acquisto software. Ti aiuto a identificare i rischi nascosti prima di impegnare il tuo budget.</p>
+            <a href="#contatti" class="btn cta-button">Richiedi la Tua Valutazione Tecnica</a>
+        </div>
+    </section>
+
+    <section class="section py-5">
+        <div class="container">
+            <h2 class="text-center text-primary-custom mb-5">Il Problema Che Risolvo</h2>
+            <div class="p-4 shadow-sm bg-white mission-box">
+                <h3 class="text-danger mb-3">Proteggere il Tuo Investimento dall'Incertezza</h3>
+                <p>Spesso, un software apparentemente perfetto nasconde criticit&agrave; strutturali, problemi di usabilit&agrave;, vulnerabilit&agrave; o costi di manutenzione futuri che emergono solo dopo l'acquisto.</p>
+                <p class="mb-0">La mia missione &egrave; fornirti un rapporto tecnico completo, trasformando il rischio in conoscenza e la demo in dati oggettivi, prima che tu firmi il contratto.</p>
+            </div>
+        </div>
+    </section>
+    
+    <hr>
+
+    <section class="section py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center text-primary-custom mb-5">I Miei Servizi di Analisi e Consulenza</h2>
+        <div class="table-responsive">
+            <table class="table table-striped table-hover table-custom shadow-sm">
+                <thead>
+                    <tr>
+                        <th scope="col" class="fs-5">Servizio</th>
+                        <th scope="col" class="fs-5">Obiettivo</th>
+                        <th scope="col" class="fs-5">Il Vostro Vantaggio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="fw-bold">Analisi del Software Singolo (Due Diligence Tecnica)</td>
+                        <td>Valutazione approfondita della soluzione proposta dal fornitore per assicurarne l'affidabilit&agrave;.</td>
+                        <td>Ti fornisco la <b>leva negoziale</b> per ottimizzare il prezzo e ottenere migliori condizioni.</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">Benchmarking e Analisi Comparativa</td>
+                        <td>Valutazione tecnica e strutturale di pi&ugrave; soluzioni concorrenti sul mercato.</td>
+                        <td>Ti aiuto a scegliere il <b>miglior investimento</b> possibile, basato sulla qualit&agrave; e la sostenibilit&agrave; a lungo termine.</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold text-success">Consulenza per Software House (Best Practices)</td>
+                        <td><b>Implementazione e Formazione</b> sulle metodologie e standard di qualit&agrave; (UIX, architettura, DevOps) che il mercato richiede.</td>
+                        <td>Il tuo team riduce il <b>Debito Tecnico</b>, aumenta la velocit&agrave; di sviluppo e <b>supera l'analisi dei concorrenti</b> grazie alla qualit&agrave; certificata.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+    <hr>
+
+    <section class="section py-5">
+        <div class="container">
+            <h2 class="text-center text-primary-custom mb-5">Aree di Valutazione Strutturale</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                
+                <div class="col">
+                    <div class="card p-3 shadow-sm h-100 area-item">
+                        <h5 class="text-primary-custom fw-bold">Usabilit&agrave; e UI/UX</h5>
+                        <p class="card-text">Valutazione dell'esperienza d'uso e del design. L'efficienza del tuo team dipende dalla facilit&agrave; di utilizzo del software.</p>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card p-3 shadow-sm h-100 area-item">
+                        <h5 class="text-primary-custom fw-bold">Architettura e Debito Tecnico</h5>
+                        <p class="card-text">Analisi della struttura del codice per prevenire problemi di performance e costose manutenzioni future.</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card p-3 shadow-sm h-100 area-item">
+                        <h5 class="text-primary-custom fw-bold">Sicurezza e Gestione Aggiornamenti</h5>
+                        <p class="card-text">Verifica delle vulnerabilit&agrave; note e della seriet&agrave; del fornitore nella protezione dei tuoi dati.</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card p-3 shadow-sm h-100 area-item">
+                        <h5 class="text-primary-custom fw-bold">Continuit&agrave; Operativa (Rollback)</h5>
+                        <p class="card-text">Valutazione dei tempi e delle procedure necessarie per il ripristino in caso di errori o guasti critici.</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card p-3 shadow-sm h-100 area-item">
+                        <h5 class="text-primary-custom fw-bold">Qualit&agrave; del Fornitore e del Supporto</h5>
+                        <p class="card-text">Analisi della chiarezza contrattuale, della professionalit&agrave; del team di sviluppo e della capacit&agrave; di supporto nel tempo.</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card p-3 shadow-sm h-100 area-item">
+                        <h5 class="text-primary-custom fw-bold">Scalabilit&agrave; e Performance</h5>
+                        <p class="card-text">Il sistema sar&agrave; in grado di gestire la crescita della tua azienda? Valuto le sue performance sotto carico.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="section py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center text-primary-custom mb-5">La Garanzia della Consulenza: La tua Situazione Win-Win</h2>
+            <div class="row g-4">
+                
+                <div class="col-12">
+                    <div class="card p-4 shadow win-win-card text-center">
+                        <h4 class="text-danger fw-bold mb-3">Il mio intervento &egrave; sempre un successo per te.</h4>
+                        <p class="lead mb-0">Se il software &egrave; valido, la mia valutazione ti d&agrave; la <b>garanzia tangibile</b> di aver fatto l'investimento giusto. Se presenta criticit&agrave;, ti d&ograve; la <b>forza contrattuale</b> per rinegoziare l'offerta o cambiare fornitore, salvandoti da un futuro costo certo.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card p-3 shadow-sm h-100">
+                        <h5 class="fw-bold text-success">Risparmio Economico Reale</h5>
+                        <p class="card-text mb-0">Eviti costi nascosti futuri legati a problemi tecnici e inefficienze operative.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card p-3 shadow-sm h-100">
+                        <h5 class="fw-bold text-success">Decisioni Basate sui Dati</h5>
+                        <p class="card-text mb-0">Prendi decisioni di acquisto con fiducia, basate su un'analisi tecnica oggettiva.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card p-3 shadow-sm h-100">
+                        <h5 class="fw-bold text-success">Massima Riduzione del Rischio</h5>
+                        <p class="card-text mb-0">Diminuisci la probabilit&agrave; di investire in una soluzione insostenibile o difettosa.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card p-3 shadow-sm h-100">
+                        <h5 class="fw-bold text-success">Vantaggio in Negoziazione</h5>
+                        <p class="card-text mb-0">Ottieni un documento tecnico utile per discutere prezzi, SLA e termini contrattuali con il fornitore.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer id="contatti" class="text-white">
+        <div class="container text-center">
+            <h3 class="text-danger mb-3 fw-bold">Contattami per una Consulenza Riservata</h3>
+            <p class="lead mb-3">Non mettere a rischio il tuo prossimo investimento IT. Sono qui per offrirti chiarezza e sicurezza.</p>
+            <p class="mb-1 fs-5"><strong>Email:</strong> la.tua.email@dominio.it</p>
+            <p class="mb-4 fs-5"><strong>Telefono:</strong> +39 [Il tuo numero]</p>
+            <p class="mt-4 opacity-75">&copy; 2025 [Il tuo Nome/Marchio]. Consulenza Indipendente per la Qualit&agrave; Software.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
